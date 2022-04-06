@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\daniel\\Redis-Example\\Redis-Example\\Redis-Example.csproj": {}
+  },
+  "projects": {
+    "D:\\daniel\\Redis-Example\\Redis-Example\\Redis-Example.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\daniel\\Redis-Example\\Redis-Example\\Redis-Example.csproj",
+        "projectName": "Redis-Example",
+        "projectPath": "D:\\daniel\\Redis-Example\\Redis-Example\\Redis-Example.csproj",
+        "packagesPath": "C:\\Users\\d.kafaeinejad.SEPASHOLDING.000\\.nuget\\packages\\",
+        "outputPath": "D:\\daniel\\Redis-Example\\Redis-Example\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\d.kafaeinejad.SEPASHOLDING.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EasyCaching.InMemory": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "EasyCaching.Redis": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
